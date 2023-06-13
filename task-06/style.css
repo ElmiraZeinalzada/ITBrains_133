@@ -1,0 +1,36 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+main{
+    margin: auto;
+    width: 65%;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 25px;
+}
+h3{
+    font-weight: 900;
+}
+li{
+    list-style-type: square;
+}
+table{
+    border-collapse: collapse;
+    background-color: #f0fff8;
+    border: 1px solid skyblue;
+    margin-bottom: 20px;
+    width: 100%;
+}
+td{
+    padding: 10px;
+}
+div{
+    background-color: #f0fff8;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
