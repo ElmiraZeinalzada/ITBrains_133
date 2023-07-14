@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 .carousel-item>img{
-    height: 550px;
+    height: 570px;
 }
 .carousel-caption>p{
     font-size: 20px;
