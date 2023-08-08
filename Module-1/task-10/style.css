@@ -1,0 +1,26 @@
+.empty-header{
+    background-color: #000;
+    height: 60px;
+}
+.container{
+    width: 75%;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.box{
+    height: 220px;
+    background-color: pink;
+    border-radius: 10px;
+    margin: 20px 13px 27px 13px;
+}
+.empty-footer{
+    width: 80%;
+    height: 50px;
+    background-color: #000;
+    border-radius: 10px;
+    margin: 60px auto;
+}

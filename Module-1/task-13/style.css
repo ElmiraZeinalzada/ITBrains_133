@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    color: teal;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.img {
+    width: 100vw;
+    height: 500px;
+    background-position: 40% 60%;
+    /* position: relative; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    filter: brightness(0.5);
+
+}
+
+.content h2 {
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 40px;
+    color: #312f2f;
+}
+
+.content p {
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #312f2f;
+
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: teal;
+    border-color: teal;
+    border-radius: 4px;
+    position: absolute;
+    left: 43%;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+
+
+.copyright {
+    margin-top: 100px;
+    font-size: 14px;
+    color: #888;
+}

@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.card {
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    background-color: #8e44ad;
+    margin: 10px;
+}
+
+.card:nth-child(2) {
+    background-color: #009432;
+}
+
+.card:nth-child(3) {
+    background-color: #0652DD;
+}
+
+.card:last-child {
+    background-color: #161617;
+}
+
+#chip_icon {
+    width: 50px;
+    padding-top: 35px;
+    margin-left: 9px;
+}
+
+#visa_icon {
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: -40px;
+    left: 200px;
+}
+
+#card_num {
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 15px;
+
+}
+
+p {
+    margin: 0;
+}
+
+#user_name {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+#space_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+#valid {
+    font-size: 9px;
+}
+
+#valid,
+#date {
+    font-family: Tahoma, sans-serif;
+    margin-left: 15px;
+
+}
